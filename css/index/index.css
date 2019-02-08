@@ -1,0 +1,19 @@
+/* 最近の出来事 */
+.news-scroll {
+    margin-top: 30px;
+    border: #1e90ff solid thin;
+    overflow: auto;
+    height: 300px;
+}
+
+/*twitter*/
+.twitter-scroll {
+    margin-top: 30px;
+    overflow: auto;
+    height: 300px;
+    border: #1e90ff solid thin;
+}
+
+#news > article {
+    border-bottom: 1px solid gray;
+}

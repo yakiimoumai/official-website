@@ -1,0 +1,16 @@
+.elements-summary {
+  word-wrap: break-word;
+}
+
+.research-slide {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 991px){
+  /*画面が991px以下になった時にスライド間に1文字分空白を挿入*/
+  .research-slide > .col-md-6{
+    margin-bottom: 1em;
+  }
+}
+

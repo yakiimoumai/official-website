@@ -1,0 +1,15 @@
+img {
+  max-width: 80%;
+}
+
+#content{
+    margin: 0 auto 80px;
+    max-width: 960px;
+    height: auto;
+    overflow: hidden;
+}
+
+#content .member-style{
+  margin: 15px;
+  text-align: center;
+}

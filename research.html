@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/common/all-style.css">
+  <link rel="stylesheet" href="css/research/research-style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <title>白松研究室</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="白松研究室研究内容">
+  <meta name="keywords" content="白松研究室,名工大,白松 俊,研究内容">
+  <meta name="author" content="白松研究室">
+</head>
+
+<body>
+  <header>
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <span class="navbar-brand mb-0 h1 theme">白松研究室</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./index.html">トップ</a>
+          <a class="nav-item nav-link" href="./member.html">メンバー</a>
+          <a class="nav-item nav-link active" href="./research.html">研究内容</a>
+          <a class="nav-item nav-link" href="./achievement.html">論文一覧</a>
+          <a class="nav-item nav-link" href="./access.html">アクセス</a>
+          <a class="nav-item nav-link" href="./link.html">リンク</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="masthead" class="jumbotron jumbotron-fluid">
+      <div class="container container-fixed">
+        <h1>研究内容</h1>
+        <p class="masthead-description">白松研究室では、自然言語処理やLinked Open Data (LOD)、行動センシング技術などのAIの要素技術を使って、人々のコラボレーションを支援する技術を研究・開発しています。例として、「シビックテック」「議論」「即興合奏」といったコラボレーションを支援する技術の研究を紹介します。</p>
+      </div>
+    </div>
+
+    <div id="content">
+
+      <div class="content-description">
+        <h1>シビックテック活動の支援技術</h1>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <p class="resizeimage"><img src="img/research/cover-civic.png"></p>
+            </div>
+            <div class="col-md-8">
+              <div class="elements-summary">
+                情報技術を活用して地域社会を良くしようという活動のことを，シビックテックと呼びます．シビックテックでは，ITエンジニアと市民・行政など，多様な利害関係者によるコラボレーションが非常に重要です．白松研では，ハッカソンなどを通じてエンジニアと市民がコラボレーションするプロセスをLinked Open Data化して，協力者を集められるようなWebアプリケーション<a target="_blank" href="http://mf.srmt.nitech.ac.jp/">MissionForest</a>を開発しています．
+              </div>
+            </div>
+          </div>
+
+          <!--
+          <div class="row">
+            <div class="col-md-3 offset-9">
+              <button type="button" class="btn btn-primary">詳細</button>
+            </div>
+          </div>
+          -->
+
+          <div class="row research-slide">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/RP9MY4pRAF8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.slideshare.net/slideshow/embed_code/key/fMSFb627mSwpfM"></iframe>
+              </div>
+            </div>
+          </div>
+        </div><!--container-->
+      </div><!--content-description-->
+
+      <div class="content-description">
+        <h1>議論ファシリテーションの支援技術</h1>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <p class="resizeimage"><img src="img/research/facilitation.png"></p>
+            </div>
+            <div class="col-md-8">
+              <div class="elements-summary">
+                AIが議論をファシリテートできないかという<a href="http://www.itolab.nitech.ac.jp/">伊藤孝行研究室</a>のプロジェクトに参加しています．これまでは，まずは人間のファシリテータの振る舞いを分析し，問い掛けの重要性を示す分析結果を得ました．これを踏まえ，ファシリテータの質問を自動生成する手法を開発しています．そのためには，AIに議論の内容とプロセスを理解させる必要があり，その理解モデルを研究しています．
+              </div>
+            </div>
+          </div>
+
+          <!--
+              <div class="row">
+                <div class="col-md-3 offset-9">
+                  <button type="button" class="btn btn-primary">詳細</button>
+                </div>
+              </div>
+              -->
+
+          <div class="row research-slide">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https:///www.slideshare.net/slideshow/embed_code/key/8P5KYlCphVxpbp"></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https:///www.slideshare.net/slideshow/embed_code/key/epuMeQOjR9DK8L"></iframe>
+              </div>
+            </div>
+          </div>
+        </div><!--container-->
+      </div><!--content-description-->
+
+      <div class="content-description">
+        <h1>身体動作による即興合奏の支援技術</h1>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <p class="resizeimage"><img src="img/research/cover-ensemble.png"></p>
+            </div>
+            <div class="col-md-8">
+              <div class="elements-summary">
+                演奏経験がない人々でも即興合奏に参加できるようになるシステムを開発しています．コード進行がわからなくても，手の上下動でメロディの動きや音のタイミングさえ指定すれば，体の動きとコード進行に合う音をシステムが鳴らしてくれます．ユーザの手の動きは，モーションセンサーカメラやスマートフォンセンサーを使って認識します．この技術は参加型音楽体験の可能性を拡げるだけでなく，初対面の人々の「アイスブレイク」にも使えるかもしれません．
+              </div>
+            </div>
+          </div>
+
+          <!--
+                  <div class="row">
+                    <div class="col-md-3 offset-9">
+                      <button type="button" class="btn btn-primary">詳細</button>
+                    </div>
+                  </div>
+                  -->
+
+          <div class="row research-slide">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.slideshare.net/slideshow/embed_code/key/i6OtPvr3WN4TL9"></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.slideshare.net/slideshow/embed_code/key/32TtwaVab4wG7E"></iframe>
+              </div>
+            </div>
+          </div>
+
+        </div><!--container-->
+      </div><!--content-description-->
+
+    </div><!--content-->
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
