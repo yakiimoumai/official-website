@@ -4,6 +4,10 @@ srmtlab/official-website
 [名古屋工業大学 白松研究室](http://www.srmt.nitech.ac.jp)  
 2018年10月頃からこのデザインに変更になりました．
 
+Note
+---
+- メンバーの写真は180px*160pxにしてください
+
 Licence
 ---
 - The MIT License (MIT)
