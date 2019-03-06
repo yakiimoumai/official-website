@@ -7,6 +7,11 @@ srmtlab/official-website
 Note
 ---
 - メンバーの写真は180px*160pxにしてください
+- achievement.html内の賞に関しては `<span class="prize"></span>` で囲んでください．
+```html
+<!-- 例です -->
+<span class="prize">(学生奨励賞)</span>
+```
 
 Licence
 ---
