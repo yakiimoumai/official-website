@@ -15,7 +15,7 @@ Note
 
 Licence
 ---
-- The MIT License (MIT)
+- Copyright 2018 白松研究室 All Rights Reserved.
 
 Authors
 ---
