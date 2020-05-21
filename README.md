@@ -3,7 +3,7 @@ srmtlab/official-website(old-website)
 白松研究室の昔のホームページのデザインです．  
 研究室誕生から2018年10月頃までこのデザインでした．  
 
-Note
+:warning: Note
 ---
 masterにmergeしないでください．
 
