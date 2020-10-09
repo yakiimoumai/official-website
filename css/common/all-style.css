@@ -12,10 +12,10 @@
 
 #masthead .container-fixed {
   position: absolute;
-  top: 120px;
+  top: 120px; /*logo無し:120px*/
   right: 0;
   left: 0;
-  /*    bottom: 70px; */
+     /* bottom: 70px; */
 }
 
 #masthead .masthead-description {

@@ -22,6 +22,20 @@
     border: #1e90ff solid thin;
 }
 
+/* youtube */
+.youtube-umekomi{
+    position:relative;
+    width:100%;
+    padding-top:56.25%;
+    }
+.youtube-umekomi iframe{
+    position:absolute;
+    top:0;
+    right:0;
+    width:100% !important;
+    height:100% !important;
+}
+
 /* スマホ用 */
 @media screen and (max-width: 767px) {
 	.fb-container {
