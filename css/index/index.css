@@ -53,3 +53,25 @@
 #news > article {
     border-bottom: 1px solid gray;
 }
+
+.box {
+    display: inline-block;
+}
+
+.box-desc {
+    float: left;
+    width: 75%;
+}
+
+.box-img {
+    float: left;
+    width: 25%;
+}
+
+.boxContainer {
+    display: flex;
+}
+
+.w-16 {
+    width : 16vw;
+}
